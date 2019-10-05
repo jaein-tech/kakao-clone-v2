@@ -15,15 +15,14 @@
 
 .find .header-btn__title {
     display: block;
-}
-
-.find .header-btn__title {
     margin-top: 20px;
     font-size: 14px;
+    cursor: pointer;
 }
 
 .find .header-btn__icon {
     font-size: 12px;
+    cursor: pointer;
 }
 
 .find .find__recommended {
@@ -36,4 +35,16 @@
     font-size: 12px;
     opacity: 0.7;
     margin-bottom: 20px;
+}
+
+.find__recommended {
+    margin-bottom: 50px;
+}
+
+.find__recommended li {
+    padding-bottom: 15px;
+}
+
+.friend__add-btn i {
+    cursor: pointer;
 }

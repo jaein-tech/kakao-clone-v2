@@ -26,7 +26,7 @@
         </div>
         <header class="header">
             <div class="header__header-column">
-                <a href="more.html" class="header__back-btn">
+                <a href="#" onclick='history.back(-1); return false;' class="header__back-btn">
                     <i class="fas fa-arrow-left"></i>
                 </a>
                 <h1 class="header__title">Settings</h1>
@@ -38,6 +38,35 @@
             </div>
         </header>
         <main class="settings">
+            <section class="settings__sections">
+                <ul class="settings_list">
+                    <li class="settings__setting">
+                        <span class="settings__icon">
+                            <i class="fas fa-bullhorn"></i>
+                        </span>
+                        <span class="settings__title">Notices</span>
+                    </li>
+                    <li class="settings__setting">
+                        <span class="settings__icon">
+                            <i class="fas fa-flask"></i>
+                        </span>
+                        <span class="settings__title">Kakao Lab</span>
+                    </li>
+                    <li class="settings__setting">
+                        <div class="settings__version">
+                            <div class="settings__version-icon">
+                                <span class="settings__icon">
+                                    <i class="fas fa-info-circle"></i>
+                                </span>
+                                <span class="settings__title">Version</span>
+                            </div>
+                            <div class="settings__version-number">
+                                <span class="settings__status">0.0.1</span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
             <section class="settings__sections">
                 <ul class="settings_list">
                     <li class="settings__setting">
@@ -58,8 +87,42 @@
                         </span>
                         <span class="settings__title">Friends</span>
                     </li>
+                    <li class="settings__setting">
+                        <span class="settings__icon">
+                            <i class="far fa-comment"></i>
+                        </span>
+                        <span class="settings__title">Chats</span>
+                    </li>
+                    <li class="settings__setting">
+                        <span class="settings__icon">
+                            <i class="fas fa-sms"></i>
+                        </span>
+                        <span class="settings__title">SMS Messages</span>
+                    </li>
+                    <li class="settings__setting">
+                        <span class="settings__icon">
+                            <i class="far fa-sun"></i>
+                        </span>
+                        <span class="settings__title">Display</span>
+                    </li>
+                    <li class="settings__setting">
+                        <span class="settings__icon">
+                            <i class="fas fa-brush"></i>
+                        </span>
+                        <span class="settings__title">Theme</span>
+                    </li>
                 </ul>
             </section>
+            <section class="settings__sections">
+                    <ul class="settings_list">
+                        <li class="settings__setting">
+                            <span class="settings__icon">
+                                <i class="far fa-question-circle"></i>
+                            </span>
+                            <span class="settings__title">Support</span>
+                        </li>
+                    </ul>
+                </section>
         </main>
         <div class="bigScreen">
             <span class="bigScreen__text">Please make your screen small! :)</span>
