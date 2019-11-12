@@ -69,3 +69,51 @@
     background-color: #f5f5f5;
     border-radius: 5px;
 }
+
+.friend__group-two {
+    width: 75px;
+    height: 75px;
+    position: relative;
+    margin-left: -3px;
+    margin-right: 5px;
+}
+
+.group-two__profile {
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 15px;
+    position: absolute;
+}
+
+.group-two__profile:nth-child(1) {
+    top: 7px;
+    left: 7px;
+}
+
+.group-two__profile:nth-child(2) {
+    bottom: 7px;
+    right: 7px;
+}
+
+.people {
+    opacity: 0.6;
+}
+
+.people i {
+    font-size: 12px;
+    opacity: 0.6;
+}
+
+.friend__group-four {
+    width: 75px;
+    height: 75px;
+    margin: 5px 5px 0px -3px;
+}
+
+.group-four__profile {
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
